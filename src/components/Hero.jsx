@@ -9,9 +9,10 @@ export default function Hero() {
             <h1 className="fw-bold mb-3">Full Stack Web Developer</h1>
 
             <p className="lead mb-4">
-              Sto seguendo un bootcamp per diventare Full Stack Developer. In
-              questo sito documento i certificati che ho conseguito e il
-              percorso di crescita che sto costruendo passo dopo passo.
+              Mi chiamo Sabatino Provenza e sto seguendo un bootcamp per
+              diventare Full Stack Developer. In questo sito troverai i
+              progressi che ho conseguito e il percorso di crescita che sto
+              costruendo passo dopo passo.
             </p>
 
             <div className="tech-marquee">
