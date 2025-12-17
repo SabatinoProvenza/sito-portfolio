@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap"
-import { FaGithub, FaLinkedin, FaRocket } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaPhone } from "react-icons/fa"
 export default function Footer() {
   const year = new Date().getFullYear()
 
@@ -11,12 +11,20 @@ export default function Footer() {
         </p>
 
         <div className="mb-2">
-          <a href="mailto:tuamail@example.com" className="footer-link">
+          <a
+            href="mailto:sabatinoprovenza98@outlook.it"
+            className="footer-link"
+          >
             sabatinoprovenza98@outlook.it
           </a>
         </div>
 
         <div className="d-flex justify-content-center gap-3">
+          <a href="tel:+393315805304" className="footer-link ">
+            <FaPhone />
+            <span> 3315805304</span>
+          </a>
+
           <a
             href="https://github.com/SabatinoProvenza"
             target="_blank"
