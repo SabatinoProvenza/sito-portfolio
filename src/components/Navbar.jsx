@@ -1,11 +1,15 @@
 import { Navbar, Nav, Container } from "react-bootstrap"
+import { FaCode } from "react-icons/fa"
 
 export default function AppNavbar() {
   return (
-    <Navbar bg="light" expand="lg" fixed="top" className="shadow-sm">
+    <Navbar bg="light" expand="md" fixed="top" className="shadow-sm">
       <Container>
-        <Navbar.Brand href="#home" className="fw-bold">
-          Il mio percorso
+        <Navbar.Brand
+          href="#home"
+          className="fw-bold d-flex align-items-center gap-2"
+        >
+          S.P <FaCode />
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="main-navbar" />
