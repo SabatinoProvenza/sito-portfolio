@@ -4,6 +4,7 @@ import AppNavbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Footer from "./components/Footer"
 import WorkInProgress from "./components/WorkInProgress"
+import Contacts from "./components/Contacts"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <WorkInProgress />
       <Hero />
       <Timeline />
+      <Contacts />
       <Footer />
     </>
   )
