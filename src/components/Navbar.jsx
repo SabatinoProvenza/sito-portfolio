@@ -9,7 +9,7 @@ export default function AppNavbar() {
           href="#home"
           className="fw-bold d-flex align-items-center gap-2"
         >
-          S.P <FaCode />
+          S.P. <FaCode size={20} className="text-primary" />
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="main-navbar" />
